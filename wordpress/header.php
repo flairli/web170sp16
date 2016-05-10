@@ -41,15 +41,6 @@ $("#navigation").toggle(); // ... open or close the navigation
 <!-- End Toggle -->
 
 <!-- Begin Navigation -->
-<div id="navigation">
-    <ul id="navigation-items">
-    <li><a href="#">contact</a></li>
-    <li><a href="#">updates</a></li>
-    <li><a href="#">gallery</a></li>
-    <li><a href="index.php">menu</a></li>
-    <li><a href="about.html">about</a></li>
-    <li><a href="home.html">
-    <img src="<?php bloginfo('template_directory'); ?>/images/easterncafe-logo.jpg" width="177px" height="40px"></a></li>
-    </ul>
-   
-</div>
+
+    <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => 'div','container_id' => 'navigation', 'items_wrap' => '<ul id="navigation-items" class="%2$s">%3$s</ul>', ) ); ?>
+    <!-- End Navigation -->

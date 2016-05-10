@@ -7,6 +7,21 @@ Description: This is my demo theme for web170 sp16
 version:1.0
 
 */
+
+p.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+#navigation ul li ul.sub-menu {
+display: block;
+}
+
+}
+
 #toggle {
 display: none;
 }
@@ -672,6 +687,8 @@ text-align: center;
 #updatescontent{
 	width:80%;
 	margin-left:90px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 #post1{
