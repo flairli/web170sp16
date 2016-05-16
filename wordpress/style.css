@@ -1,0 +1,1005 @@
+@charset "UTF-8";
+/*begin home page*/
+/*
+Theme Name: web170 sp16
+Author: Huiming Li
+Description: This is my demo theme for web170 sp16
+version:1.0
+
+*/
+
+p.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+#navigation ul li ul.sub-menu {
+display: block;
+}
+
+}
+
+#toggle {
+display: none;
+}
+
+
+#stripe{
+   max-width:980px;
+	width:73%;
+	margin:0 auto;
+	width
+	}
+
+#stripe hr{
+	margin-top:70px;
+	
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+div.social-media{
+	width:100px;
+	float:right;
+	margin-top:20px;
+}
+
+div.slides{
+
+margin-top:57px;
+margin-left:auto;
+margin-right:auto;
+}
+
+
+
+#navigation{ 
+   max-width:980px;
+	width: 980px; /* change the width */
+	margin: 0 auto;
+	margin-top:20px;
+	display:block;
+	color:fff;
+	padding-bottom: 20px; 
+	padding-right: 0px; 
+	}
+	
+#navigation ul {
+		overflow: hidden; /* prevents the great collapse */
+		/*border: 1px solid grey;*/
+		padding-top:40px;
+		
+	}
+	
+	#navigation ul li {
+		list-style: none;
+		float: right;
+		margin: 0; 
+		margin-right: 48px; /* gives the items space between */
+	}
+	
+	#navigation ul li a img{
+		float:left;
+		margin-top:-15px;
+		margin-right:80px;
+		padding-bottom:20px;
+
+	}
+	
+		#navigation ul li a {
+			color: #514114; 
+			text-decoration: none; 
+			text-transform:uppercase;
+		    font-family:Arial Black;
+		}
+		
+		#navigation ul li a:hover {
+			color: #9E740D; 
+		}
+		
+		
+#content {
+max-width: 980px; /* change to a max-width */
+}		
+		
+#content{
+display: block;
+width: 73%;
+height: 858.073px;
+margin-right: auto;
+margin-left: auto;
+background-color:#f9f8f8;
+overflow:hidden;
+text-align:center;
+
+}
+
+#welcome h2,h4{
+display:block;
+color: #514114;
+text-transform:uppercase;
+text-align: center;
+
+}
+
+#welcome h2{
+margin-top:20px;
+font-family: Arial black;
+font-size:24px;
+}
+#welcome h4{
+font-size:22px;
+font-family:Franklin Gothic Book;
+margin-top:20px;
+}
+
+#CTA{
+margin-top:10px;
+
+	}
+#CTA img{width:300px;}
+
+#CTA1 {
+background-color:#ffffff;
+float:left;
+width:300px;
+margin-left:15px;
+margin-right: 10px;
+height: 245.54px;
+
+}
+
+#CTA1 p{
+color:#80875B;
+text-transform:uppercase;
+float:left;
+margin-left:8px;
+margin-top:20px;
+margin-bottom:10px;
+    
+}
+p.title{
+font-family:Arial black;
+font-size:20px;
+}
+
+#CTA1 p.button a{
+font-family:myriad pro;
+font-size:14px;
+color:#80875B;
+float:left;
+margin-top:-10px;
+border-bottom: 1px dashed #80875B;
+text-decoration:none;}
+hover{ border:0;}
+
+
+
+#CTA2 {
+float:left;
+background-color:#ffffff;
+width:300px;
+height:245.54px;
+margin-right:10px;
+
+position:relative;
+
+}
+
+#CTA3 {
+float:left;
+background-color:#ffffff;
+width:300px;
+height:245.54px;
+
+
+}
+
+
+#CTA2 p{
+color:#80875B;
+text-transform:uppercase;
+float:left;
+margin-top:20px;
+margin-bottom:10px;
+margin-left:8px
+}
+
+#CTA3 p{
+color:#80875B;
+text-transform:uppercase;
+float:left;
+margin-left:8px;
+margin-top:20px;
+margin-bottom:10px;
+}
+
+p.title{
+font-family:Arial black;
+font-size:20px;
+}
+
+#CTA2 p.button a{
+font-family:myriad pro;
+font-size:14px;
+color:#80875B;
+float:left;
+margin-top:-10px;
+border-bottom: 1px dashed #80875B;
+text-decoration:none;}
+hover{ border:0;}
+
+#CTA3 p.button a{
+font-family:myriad pro;
+font-size:14px;
+color:#80875B;
+float:left;
+margin-top:-10px;
+border-bottom: 1px dashed #80875B;
+text-decoration:none;}
+hover{ border:0;}
+
+
+	
+
+#footer {
+max-width: 980px; /* change to a max-width */
+}
+
+
+#footer{
+
+display:block;
+width:73%;
+height:111.6px;
+background-color:#B7986D;
+color:#ffffff;
+margin-top:10px;
+margin-right: auto;
+margin-left: auto;
+padding-top:10px;
+padding-left:10px;
+}
+
+#blogcontent{
+	
+	
+	
+	
+	}
+div.aboutbackground{
+	display:block;
+	max-width:96%;
+	margin-top:20px;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:#fff;
+	height:796.051px;
+	
+	}
+	
+
+
+@media screen and( max-width:600px){
+
+#header {
+padding-left: 10px;
+padding-right: 10px;
+overflow: hidden; /* prevent the great collapse */
+}
+
+#logo {
+float: left; /* float our logo left */
+}
+
+#toggle {
+display: block; /* make our toggle visible */
+float: right; /* float our toggle right */
+}
+
+#navigation {
+display: none; /* hide our navigation */
+padding-left: 10px;
+padding-right: 10px;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+/*end home page*/
+
+/*begin about page*/
+
+#aboutus{
+margin-top:35px;
+display:inline-block;
+width:80%;
+height:60px;
+margin-bottom:30px;
+
+	}
+	
+#aboutus:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+#aboutus p.title{
+	display:inline-block;
+	font-family:arial black;
+	font-size:25px;
+	color:#80875b;
+	text-transform:uppercase;
+	line-height: normal;
+	vertical-align:middle;
+	
+	
+	}
+	
+div.leftline{
+	display:inline-block;
+	vertical-align:middle;
+	line-height: normal;
+	margin-right:20px;
+	
+	}
+	
+div.rightline{
+	display:inline-block;
+	vertical-align:middle;
+	line-height: normal;
+	margin-left:20px;
+	
+	}
+	
+#aboutuscontent{
+
+display:inline-block;
+width:646.29px;
+
+	
+	}	
+	
+#aboutuscontent p{
+	font-family:Franklin Gothic Book;
+	color:#514114;
+	font-size:21px;
+	width:100%;
+		}
+	
+#aboutpic img{
+	margin-top:60px;
+	
+	width:70%;
+		}
+
+
+#aboutinfo{
+	margin-top:30px;
+display:inline-block;
+height:77px;
+width:51%;
+	}
+	
+#aboutinfo:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+	
+	
+#address {
+display:inline-block;
+line-height: normal;
+vertical-align:middle;
+text-align:left;
+margin-right:20%;
+}
+	
+#address p.title{
+	font-family:Franklin Gothic Book;
+	font-size:18px;
+	color:#80875b;
+	text-transform:uppercase;
+	
+	}
+
+#address p.content{
+	font-family:Franklin Gothic Book;
+	font-size:18px;
+	color:#514114;
+	
+	}
+	
+
+#hours {
+display:inline-block;
+line-height: normal;
+vertical-align:middle;
+text-align:left;
+}
+
+#hours p.title{
+	font-family:Franklin Gothic Book;
+	font-size:18px;
+	color:#80875b;
+	text-transform:uppercase;
+	
+	}
+
+#hours p.content{
+	font-family:Franklin Gothic Book;
+	font-size:18px;
+	color:#514114;
+	
+	}
+/*end aboutpage*/
+/*begin contact page*/
+
+div.contactbackground{
+	display:block;
+	max-width:96%;
+	margin-top:20px;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:#fff;
+	height:796.051px;
+	
+	}
+	
+
+
+#contactus{
+margin-top:35px;
+display:inline-block;
+width:80%;
+height:60px;
+margin-bottom:30px;
+
+	}
+	
+#contactus:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+#contactus p.title{
+	display:inline-block;
+	font-family:arial black;
+	font-size:25px;
+	color:#80875b;
+	text-transform:uppercase;
+	line-height: normal;
+	vertical-align:middle;
+	
+	}
+
+#contactcontent{
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	height:634px;
+	display:block;
+	
+	}
+
+#contactinfo{
+	width:50%;
+	text-align:left;
+	float:left;
+	
+	height:634px;
+}
+	
+#address p.title{
+	font-family:Franklin Gothic Book;
+	color:#80875b;
+	font-size:18px;	
+	text-transform:none;
+	
+	}
+
+#address p.content{
+	font-family:Franklin Gothic Book;
+	color:#514114;
+	font-size:18px;	
+	}
+	
+
+#hours p.title{
+	font-family:Franklin Gothic Book;
+	color:#80875b;
+	font-size:18px;	
+	text-transform:none;
+	
+	}
+
+#hours p.content{
+	font-family:Franklin Gothic Book;
+	color:#514114;
+	font-size:18px;	
+	}
+	
+
+#phone p.title{
+	font-family:Franklin Gothic Book;
+	color:#80875b;
+	font-size:18px;	
+	text-transform:none;
+	
+	}
+
+#phone p.content{
+	font-family:Franklin Gothic Book;
+	color:#514114;
+	font-size:18px;	
+	}
+#email p.title{
+	font-family:Franklin Gothic Book;
+	color:#80875b;
+	font-size:18px;	
+	text-transform:none;
+	
+	}
+
+#email p.content{
+	font-family:Franklin Gothic Book;
+	color:#514114;
+	font-size:18px;	
+	}
+	
+#email p.content br+br{
+	margin：10px;
+	
+	}
+
+	
+#address,#hours,#phone,#email{
+	margin-top:38px;
+	}
+	
+	
+#contactform{
+	text-align:left;
+	margin-top:38px;
+	height:634px;
+	width:50%;
+	display:block;
+	position:relative;
+	float:right;
+	
+	}
+
+label{
+	font-family:Franklin Gothic Book;
+	text-align:left;
+	font-size:18px;
+	color:#80875b;
+	
+	}
+	
+input#name.input{
+width:100%;
+height:50px;	
+background-color:#e5e6e7;
+margin-top:10px;
+	
+}
+
+input#emailmsg.input{
+width:100%;
+height:50px;	
+background-color:#e5e6e7;
+margin-top:10px;
+	
+}
+textarea#message.input{
+width:100%;
+height:270px;
+background-color:#e5e6e7;	
+margin-top:10px;
+	
+}
+
+div.row{
+	
+	padding-bottom:38px;
+	
+	}
+/*end contact page*/
+
+
+/*begin updates page*/
+
+
+
+#blogcontent {
+max-width: 980px; /* change to a max-width */
+}		
+		
+#blogcontent{
+display: block;
+width: 73%;
+margin-right: auto;
+margin-left: auto;
+background-color:#f9f8f8;
+overflow:hidden;
+
+}
+
+
+
+	.updatesbackground{
+	height:1073px;
+	display:block;
+	max-width:96%;
+	margin-top:20px;
+	margin-right:auto;
+	margin-left:auto;
+	height: 980px;
+	background-color:#fff;
+		
+	}
+	#ourblog{
+margin-top:35px;
+display:inline-block;
+width:100%;
+height:60px;
+margin-bottom:30px;
+text-align: center;
+	}
+
+	
+#ourblog:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+#ourblog p.title{
+	display:inline-block;
+	font-family:arial black;
+	font-size:25px;
+	color:#80875b;
+	text-transform:uppercase;
+	line-height: normal;
+	vertical-align:middle;
+	
+	}
+#updatescontent{
+	width:80%;
+	margin-left:90px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#post1{
+	height:450px;
+		text-align:left;
+	}
+#post2{
+	height:250px;
+		text-align:left;
+	}
+
+
+ p.dates{
+	font-family:Franklin Gothic Book;
+	font-size:18px;
+	color:#80875b;
+	text-transform:uppercase;
+
+	
+	}	
+#post1 img{
+	margin:30px 0;
+	width:50%;
+	}
+
+#post2 p.title{
+	margin-top:20px;
+	}
+	
+#updatescontent p.title	{
+	font-family:Franklin Gothic Book;
+	font-size:24px;
+	color:#80875b;
+	text-weight:bold;}
+
+
+#updatescontent p.content	{
+	font-family:Franklin Gothic Book;
+	font-size:21px;
+	color:#58595b;
+	margin-top:15px;
+	}
+	
+	
+#updatescontent p.button a {
+font-family:Franklin Gothic Book;
+text-transform:uppercase;
+font-size:18px;
+color:#514114;
+float:left;
+margin-top:-10px;
+border-bottom: 1px dashed #80875B;
+text-decoration:none;
+margin-top:20px;
+}
+hover{ border:0;}
+	
+#seperator{
+	margin-bottom:60px;
+	}	
+#morestories{
+	margin:auto 0;
+	
+	
+	}
+	
+	
+	/*end updates page*/
+
+/*begin menu page*/
+
+div.menu-desbackground{
+	display:block;
+	max-width:96%;
+	margin-top:20px;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:#fff;
+	height:796.051px;
+	
+	}
+	
+
+
+#ourmenu{
+margin-top:35px;
+display:inline-block;
+width:80%;
+height:60px;
+margin-bottom:30px;
+
+	}
+	
+#ourmenu:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+#ourmenu p.title{
+	display:inline-block;
+	font-family:arial black;
+	font-size:25px;
+	color:#80875b;
+	text-transform:uppercase;
+	line-height: normal;
+	vertical-align:middle;
+	
+	}
+	
+#menucontent{
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	height:600px;
+	
+	}
+
+
+#left-nav{
+	display:inline-block;
+	text-align:left;
+	float:left;
+	margin-top:30px;
+	
+	
+	}	
+	
+#right-content {
+	display:block;
+	background-color:#f0f1f1;
+	width:70%;
+	height:466px;
+	position:relative;
+	float:right;
+
+}
+
+
+
+
+#right-content p{
+	width:80%;
+	text-align:left;
+	display:inline-block;
+}
+
+
+	
+#right-content:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+
+
+	
+
+	
+	
+#colomn1 {
+display:inline-block;
+line-height: normal;
+vertical-align:middle;
+text-align:left;
+div-space:20px;
+float:left;
+width:40%;
+margin-left:7%;
+margin-top:40px;
+
+}
+	
+#colomn1 p.title{
+	font-family:Franklin Gothic Book;
+	font-size:21px;
+	color:#80875b;
+	text-transform:uppercase;
+	
+	}
+
+#colomn1  p.content{
+	font-family:Franklin Gothic Book;
+	font-size:21px;
+	color:#514114;
+	
+	}
+
+#latte{
+	
+	margin-top:30px;
+	}
+	
+
+#colomn2 {
+display:inline-block;
+line-height: normal;
+vertical-align:middle;
+text-align:left;
+float:right;
+width:40%;
+position:relative;
+margin-left:7%;
+margin-top:40px;
+}
+
+#colomn2 p.title{
+	font-family:Franklin Gothic Book;
+	font-size:21px;
+	color:#80875b;
+	text-transform:uppercase;
+	
+	}
+
+#colomn2 p.content{
+	font-family:Franklin Gothic Book;
+	font-size:21px;
+	color:#514114;
+	
+	}
+	
+#left-nav ul li {
+		list-style: none;
+		
+		margin: 0; 
+		margin-bottom: 30px; /* gives the items space between */
+	}
+	
+	
+		#left-nav ul li a {
+			color: #a6a7aa; 
+			text-decoration: none; 
+			text-transform:uppercase;
+		    font-family:Franklin Gothic Book;
+			font-size:24px;
+		}
+
+		#left-nav ul li.sub-on a {
+			color: #80875b; 
+			text-decoration: none; 
+			text-transform:uppercase;
+		    font-family:Franklin Gothic Book;
+			font-size:24px;
+		}
+		
+		
+		#left-nav ul li a:hover {
+			color: #80875b; 
+		}
+
+
+#eatscolomn1{
+display:inline-block;
+line-height: normal;
+vertical-align:middle;
+text-align:left;
+float:left;
+width:80%;
+margin-left:7%;
+margin-top:40px;
+
+}
+#eatscolomn1 p.title{
+	font-family:Franklin Gothic Book;
+	font-size:21px;
+	color:#80875b;
+	text-transform:uppercase;
+	
+	}
+
+#eatscolomn1 p.content{
+	font-family:Franklin Gothic Book;
+	font-size:21px;
+	color:#514114;
+	
+	}
+#crepes p.title{
+	margin-top:30px;
+	
+	}
+	
+	
+
+
+	
+
+
+
+	
+
+#footer {
+max-width: 980px; /* change to a max-width */
+}
+
+
+#footer{
+
+display:block;
+width:73%;
+height:111.6px;
+background-color:#B7986D;
+color:#ffffff;
+margin-top:10px;
+margin-right: auto;
+margin-left: auto;
+padding-top:10px;
+padding-left:10px;
+}
+
+/* CSS Document */
+
