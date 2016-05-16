@@ -9,21 +9,27 @@
 <!-- Begin Styles -->
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" 
  type="text/css" media="all" />
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/flexslider.css" type="text/css" media="screen" />
 <!-- End Styles -->
-<!-- Begin Toggle Menu -->
-<script type="text/javascript" charset="utf-8">
-$(window).load(function() { // enable function upon window load
-$("#toggle").click(function() { // when toggle is clicked...
-$("#navigation").toggle(); // ... open or close the navigation
-});
-});
-</script>
-<!-- End Toggle Menu -->
-<?php wp_head(); ?>
 
+<!-- start js -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/scripts/jquery.flexslider.js"></script>
+<script type="text/javascript">
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+        animation:"fade",
+        slideshow:false,
+  });
+        })
+</script>
+
+<!-- end js -->
+<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
+
 <div id="stripe" width="73%">
 <hr  size=8px color=#80875B>
  <div class="social-media">
@@ -41,6 +47,8 @@ $("#navigation").toggle(); // ... open or close the navigation
 <!-- End Toggle -->
 
 <!-- Begin Navigation -->
-
+<div id="header">
+       <div id="logo"><a href="<?php echo get_option('home'); ?>"/><img src="<?php bloginfo('template_directory'); ?>/images/easterncafe-logo.jpg" width="177px" height="40px"></div>
     <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => 'div','container_id' => 'navigation', 'items_wrap' => '<ul id="navigation-items" class="%2$s">%3$s</ul>', ) ); ?>
+    </div>
     <!-- End Navigation -->

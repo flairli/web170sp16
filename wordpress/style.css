@@ -13,15 +13,6 @@ p.sansserif {
 }
 
 
-
-@media screen and (max-width: 600px) {
-
-#navigation ul li ul.sub-menu {
-display: block;
-}
-
-}
-
 #toggle {
 display: none;
 }
@@ -31,7 +22,6 @@ display: none;
    max-width:980px;
 	width:73%;
 	margin:0 auto;
-	width
 	}
 
 #stripe hr{
@@ -48,18 +38,23 @@ div.social-media{
 	margin-top:20px;
 }
 
-div.slides{
 
-margin-top:57px;
-margin-left:auto;
-margin-right:auto;
+#header{
+	max-width: 980px;
+	margin: 0 auto;}
+
+
+#logo{
+margin-left: 2%;
+margin-top: 20px;
+display:inline-block;
+float:left;
+
 }
-
-
 
 #navigation{ 
    max-width:980px;
-	width: 980px; /* change the width */
+	width: 980px;
 	margin: 0 auto;
 	margin-top:20px;
 	display:block;
@@ -69,26 +64,19 @@ margin-right:auto;
 	}
 	
 #navigation ul {
-		overflow: hidden; /* prevents the great collapse */
-		/*border: 1px solid grey;*/
-		padding-top:40px;
+    float:right;
+		overflow: hidden; 
+		padding-top:20px;
 		
 	}
 	
-	#navigation ul li {
+#navigation ul li {
 		list-style: none;
-		float: right;
+		float: left;
 		margin: 0; 
-		margin-right: 48px; /* gives the items space between */
+		margin-right: 48px;
 	}
 	
-	#navigation ul li a img{
-		float:left;
-		margin-top:-15px;
-		margin-right:80px;
-		padding-bottom:20px;
-
-	}
 	
 		#navigation ul li a {
 			color: #514114; 
@@ -100,16 +88,20 @@ margin-right:auto;
 		#navigation ul li a:hover {
 			color: #9E740D; 
 		}
-		
+
+ul.sub-menu {
+display: none;
+}	
+
+
 		
 #content {
-max-width: 980px; /* change to a max-width */
+max-width: 980px; 
 }		
 		
 #content{
 display: block;
 width: 73%;
-height: 858.073px;
 margin-right: auto;
 margin-left: auto;
 background-color:#f9f8f8;
@@ -137,114 +129,56 @@ font-family:Franklin Gothic Book;
 margin-top:20px;
 }
 
-#CTA{
-margin-top:10px;
 
-	}
-#CTA img{width:300px;}
 
-#CTA1 {
+#CTA {
 background-color:#ffffff;
-float:left;
-width:300px;
-margin-left:15px;
-margin-right: 10px;
+
 height: 245.54px;
 
 }
 
-#CTA1 p{
-color:#80875B;
-text-transform:uppercase;
-float:left;
-margin-left:8px;
-margin-top:20px;
-margin-bottom:10px;
+
+#widgets p{
+
+text-align:left;
+margin-left: 5%;
     
 }
+
+#widgets ul {text-align: left;}
 p.title{
+color:#80875B;
+text-transform:uppercase;
 font-family:Arial black;
-font-size:20px;
+font-size:1em;
 }
 
-#CTA1 p.button a{
+p.button a{
 font-family:myriad pro;
 font-size:14px;
 color:#80875B;
-float:left;
-margin-top:-10px;
 border-bottom: 1px dashed #80875B;
-text-decoration:none;}
+text-decoration:none;
+position:absolute;
+bottom:0;}
 hover{ border:0;}
 
+#widgets p ul li a {text-align: left;}
 
 
-#CTA2 {
+#widgets{
 float:left;
 background-color:#ffffff;
-width:300px;
-height:245.54px;
-margin-right:10px;
-
+width:30%;
+margin-left: 2%;
+height:230px;
 position:relative;
 
 }
 
-#CTA3 {
-float:left;
-background-color:#ffffff;
-width:300px;
-height:245.54px;
 
 
-}
-
-
-#CTA2 p{
-color:#80875B;
-text-transform:uppercase;
-float:left;
-margin-top:20px;
-margin-bottom:10px;
-margin-left:8px
-}
-
-#CTA3 p{
-color:#80875B;
-text-transform:uppercase;
-float:left;
-margin-left:8px;
-margin-top:20px;
-margin-bottom:10px;
-}
-
-p.title{
-font-family:Arial black;
-font-size:20px;
-}
-
-#CTA2 p.button a{
-font-family:myriad pro;
-font-size:14px;
-color:#80875B;
-float:left;
-margin-top:-10px;
-border-bottom: 1px dashed #80875B;
-text-decoration:none;}
-hover{ border:0;}
-
-#CTA3 p.button a{
-font-family:myriad pro;
-font-size:14px;
-color:#80875B;
-float:left;
-margin-top:-10px;
-border-bottom: 1px dashed #80875B;
-text-decoration:none;}
-hover{ border:0;}
-
-
-	
 
 #footer {
 max-width: 980px; /* change to a max-width */
@@ -284,35 +218,14 @@ div.aboutbackground{
 	
 
 
-@media screen and( max-width:600px){
-
-#header {
-padding-left: 10px;
-padding-right: 10px;
-overflow: hidden; /* prevent the great collapse */
-}
-
-#logo {
-float: left; /* float our logo left */
-}
-
-#toggle {
-display: block; /* make our toggle visible */
-float: right; /* float our toggle right */
-}
-
-#navigation {
-display: none; /* hide our navigation */
-padding-left: 10px;
-padding-right: 10px;
-}
 
 
 
 
 
 
-}
+
+
 
 
 
@@ -647,13 +560,12 @@ overflow:hidden;
 
 
 	.updatesbackground{
-	height:1073px;
 	display:block;
 	max-width:96%;
 	margin-top:20px;
 	margin-right:auto;
 	margin-left:auto;
-	height: 980px;
+	
 	background-color:#fff;
 		
 	}
@@ -742,7 +654,7 @@ float:left;
 margin-top:-10px;
 border-bottom: 1px dashed #80875B;
 text-decoration:none;
-margin-top:20px;
+
 }
 hover{ border:0;}
 	
@@ -804,12 +716,11 @@ margin-bottom:30px;
 	margin-left:auto;
 	margin-right:auto;
 	width:80%;
-	height:600px;
 	
 	}
 
 
-#left-nav{
+#sub-navigation{
 	display:inline-block;
 	text-align:left;
 	float:left;
@@ -822,7 +733,6 @@ margin-bottom:30px;
 	display:block;
 	background-color:#f0f1f1;
 	width:70%;
-	height:466px;
 	position:relative;
 	float:right;
 
@@ -913,23 +823,20 @@ margin-top:40px;
 	
 	}
 	
-#left-nav ul li {
+#sub-navigation ul li {
 		list-style: none;
+        margin: 0; 
 		
-		margin: 0; 
-		margin-bottom: 30px; /* gives the items space between */
 	}
 	
 	
-		#left-nav ul li a {
+		#sub-navigation ul li a {
 			color: #a6a7aa; 
 			text-decoration: none; 
-			text-transform:uppercase;
 		    font-family:Franklin Gothic Book;
-			font-size:24px;
 		}
 
-		#left-nav ul li.sub-on a {
+		#sub-navigation ul li.sub-on a {
 			color: #80875b; 
 			text-decoration: none; 
 			text-transform:uppercase;
@@ -938,10 +845,14 @@ margin-top:40px;
 		}
 		
 		
-		#left-nav ul li a:hover {
+		#sub-navigation ul li a:hover {
 			color: #80875b; 
 		}
 
+.categories{
+list-style: none;
+
+}
 
 #eatscolomn1{
 display:inline-block;
@@ -983,8 +894,7 @@ margin-top:40px;
 	
 
 #footer {
-max-width: 980px; /* change to a max-width */
-}
+    max-width: 980px; }
 
 
 #footer{
