@@ -1,18 +1,27 @@
 <?php get_header(); ?>
-<div id="blogcontent">
- <div class="updatesbackground">
+<div id="content">
+ <div class="menu-desbackground">
+
+<div id="menucontent">
+
 
   <div id="ourblog">
    <div class="leftline"><img src="<?php bloginfo('template_directory'); ?>/images/decorationlineleft.png"></div>
-   <p class="title"></p>
+     <p class="title"><a href="<?php the_permalink();?>"><?php the_title();?></a></p>
    <div class="rightline"><img src="<?php bloginfo('template_directory'); ?>/images/decorationlineright.png"></div>
   </div>
-<div id="updatescontent">
+    <?php get_sidebar(); ?>
+<div id="right-content">
    
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); // start the loop ?>
-<h2><a href="<?php the_permalink(); // link to the page or posting ?>"><?php the_title(); // get the page or posting title ?></a></h2>
-<?php the_content(''); // get page or posting written content ?>
-<?php endwhile; endif; // end the loop ?>
+
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post();?>
+<h2><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
+<small>Posted on <?php the_time('F,j,Y');?> at <?php the_time('g:i a'); ?> by <?php the_author();?> in <?php the_category(',');?></small>
+<?php the_post_thumbnail('thumbnail');?>
+<?php the_excerpt();?>
+<?php endwhile; endif;?>
+<small>index.php</small>
+</div>
 </div>
 </div>
 </div>
