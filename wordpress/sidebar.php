@@ -19,7 +19,12 @@ wp_list_pages(array('child_of' => $post->ID, 'title_li' => __('')));}
     'show_count' => true,
     'exclude' =>array(10)
 ) ); ?> </ul>  
- <?php endif;?>                                         
+<?php endif;?>  
+
+ <?php if(get_post_meta($post->ID,'Quote',true)):?> 
+<blockquote><?php echo get_post_meta($post->ID,'Quote',true);?></blockquote>
+<?php endif;?>  
+
                                     
 </div>
    
