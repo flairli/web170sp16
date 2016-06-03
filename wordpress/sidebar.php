@@ -25,6 +25,6 @@ wp_list_pages(array('child_of' => $post->ID, 'title_li' => __('')));}
 <blockquote><?php echo get_post_meta($post->ID,'Quote',true);?></blockquote>
 <?php endif;?>  
 
-                                    
+<?php dynamic_sidebar(1);?>                                    
 </div>
    
