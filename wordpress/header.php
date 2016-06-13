@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
     <!-- Begin Meta -->
 <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0" />
+<meta name="description" content="<?php echo strip_tags(get_the_excerpt());?>"/>
  <!-- End Meta -->
 <title><?php bloginfo('description'); ?><?php bloginfo('name'); ?>eastern cafe</title>
 <!-- Begin Styles -->

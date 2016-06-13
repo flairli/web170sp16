@@ -3,6 +3,30 @@
 author: Huiming Li/Flair
 Description: This is my demo theme for web170 sp16
 version:1.0*/
+
+function get_my_title_tag(){
+global $post;
+    if(is_front_page()){
+    bloginfo('description');
+    
+    }
+else if(is_page()|| is_single()){
+the_title();
+}
+else{  
+    bloginfo('description');
+}
+if($post->post_parent){
+echo'|';
+    echo get_the_title($post->post_parent);
+}
+echo'|';
+bloginfo('name');
+echo'|';
+echo'Seattle,WA.';
+}
+
+add_post_type_support('page','excerpt');
 //register my menu
 //register my sidebar
 // Register My Menus
@@ -21,4 +45,3 @@ register_sidebar(array(
 	'after_title' => '</h2>' )); 
 
 ?>
-
